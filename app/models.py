@@ -2,6 +2,8 @@ from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from pydantic import BaseModel
 
+# описание моделей данных обращения по адресу кошелька, и сохранения ответа
+
 Base = declarative_base()
 
 

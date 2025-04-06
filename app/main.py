@@ -5,6 +5,7 @@ from .db import get_db
 from .models import AddressInput, WalletInfo, WalletRequest
 from .tron_client import get_wallet_info as tron_info
 
+# создание и настройка фреймворка fastapi и эндпоинтов
 app = FastAPI()
 
 

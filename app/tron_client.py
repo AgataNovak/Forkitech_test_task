@@ -1,6 +1,8 @@
 from tronpy import Tron
 from .models import WalletRequest
 
+# клиент взаимодействия с сервисом tron
+
 client = Tron()
 
 

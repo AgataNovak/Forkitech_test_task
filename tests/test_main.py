@@ -1,6 +1,7 @@
 from fastapi.testclient import TestClient
 from app.main import app
 
+# тестирование эндпоинта получения по адресу информации о кошельке 
 
 client = TestClient(app)
 

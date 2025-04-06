@@ -1,6 +1,7 @@
 from app.db import engine, Session
 from app.models import WalletRequest
 
+# тесты взамодействия с базой данных
 
 def test_db_write():
     db = Session(engine)
